@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel>
+    <title>MHST14-16-Dream</title>
+    <description></description>
+    <link>/rss.xml</link>
+    <lastBuildDate>Mon, 02 Jun 2014 00:49:48 +0700</lastBuildDate>
+    <pubDate>Mon, 02 Jun 2014 00:49:48 +0700</pubDate>
+    <ttl>1800</ttl>
+
+    
+    <item>
+      <title><![CDATA[Meeting Minute 2]]></title>
+      <description>&lt;p&gt;&lt;strong&gt;Thời gian&lt;/strong&gt;: Chủ nhật, ngày 25/05/2014 - 19h30 – 20h35&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thành phần tham dự&lt;/strong&gt;: anh Quân, Khoái, Nam, Hùng, Huy&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Địa điểm&lt;/strong&gt;: Qua Skype&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mục đích&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gặp gỡ làm quen giữa anh Quân và các thành viên của đội&lt;/li&gt;
+
+&lt;li&gt;Thống nhất lịch họp và phương thức làm việc&lt;/li&gt;
+
+&lt;li&gt;Phân tích bài toán&lt;/li&gt;
+
+&lt;li&gt;Thống nhất chức năng và các công nghệ sử dụng&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Nội dung cuộc họp&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Thống nhất lịch họp và phương thức làm việc:
+&lt;ul&gt;
+&lt;li&gt;Fix lịch họp là tối Chủ nhật hàng tuần vào lúc 19h30 (GMT+7), nếu anh Quân có việc bận thì có thể chuyển sang một ngày khác&lt;/li&gt;
+
+&lt;li&gt;Hình thức họp online qua Skype.&lt;/li&gt;
+
+&lt;li&gt;Nội dung cuộc họp giống như hôm qua đã thống nhất với anh Hưng, cần làm ít nhất các việc:
+&lt;ul&gt;
+&lt;li&gt;Báo cáo tiến độ, trong tuần vừa qua đã làm được những gì.&lt;/li&gt;
+
+&lt;li&gt;Đưa ra các vấn đề mắc phải (sẽ gửi email sớm trước buổi họp), cùng mentor tìm phương hướng giải quyết.&lt;/li&gt;
+
+&lt;li&gt;Lên các công việc cần làm trong tuần này.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Ý tưởng và phân tích bài toán
+&lt;ul&gt;
+&lt;li&gt;Ý tưởng và các module do anh Quân đưa là:
+&lt;ul&gt;
+&lt;li&gt;Đưa phần mềm Zim xuống mobile phone, với tính năng càng khớp với Zim desktop càng nhiều càng tốt:
+&lt;ul&gt;
+&lt;li&gt;Hiển thị nội dung từ Wiki format. Hỗ trợ link giữa các note y như “wiki” thứ thiệt.&lt;/li&gt;
+
+&lt;li&gt;Cho phép tổ chức các note theo cấu trúc cây (note mẹ, note con)&lt;/li&gt;
+
+&lt;li&gt;Cho phép format text thông qua menu lệnh, thanh công cụ, dành cho ai ngại học thuộc cú pháp wiki.&lt;/li&gt;
+
+&lt;li&gt;Hỗ trợ hệ thống plugin.&lt;/li&gt;
+
+&lt;li&gt;Giữ được các “core plugins” của Zim desktop, ưu tiên các plugin ko phụ thuộc vào các chương trình ngoài (có 1 số plugin của Zim desktop phụ thuộc vào GraphViz để vẽ biểu đồ, ta ko cần hỗ trợ ngay vì có thể nó không có trên mobile phone).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Hỗ trợ đồng bộ note qua cloud.
+&lt;ul&gt;
+&lt;li&gt;Thêm tính năng quản lý các phiên bản của note qua những lần sửa đổi. Tuy nhiên, ta không cần người dùng cuối thấy được các danh sách phiên bản này. Nó sẽ ẩn vì chỉ để phục vụ đồng bộ cũng như giải quyết conflict thôi. Ta sẽ xây dựng specification trước rồi implement sau. Đề ra phương pháp giải quyết conflict khi đồng bộ. Các nguồn có thể tham khảo: Tomboy Notes (trước đây có tính năng đồng bộ qua Ubuntu One), Git/Hg/Bazaar.&lt;/li&gt;
+
+&lt;li&gt;Xây dựng web server cho việc đồng bộ. Tạo các RESTful API cho việc trao đổi với client từ desktop và mobile.&lt;/li&gt;
+
+&lt;li&gt;Thêm tính năng đồng bộ này vào Zim desktop. Có thể thêm vào dưới dạng 1 plugin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Sau khi họp, cả đội thống nhất chung sẽ tập trung và đặt việc hỗ trợ đồng bộ hóa và versioning cho Zim làm module chính, còn port sang Mobile là module có thể sẽ phát triển sau khi đã hoàn thành module chính.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Thống nhất các công nghệ sử dụng:
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu mô hình quản lý phiên bản của Git/Hg/Bazaar (2 cái sau cũng viết bằng Python).&lt;/li&gt;
+
+&lt;li&gt;Tìm hiểu tính năng synchronization của Tomboy Notes. Xem Tomboy Notes có hỗ trợ quản lý phiên bản hay chỉ đơn giản là copy file.&lt;/li&gt;
+
+&lt;li&gt;Dùng ngôn ngữ/framework nào cho webserver? Nếu dùng PHP, ta có nên tham khảo và xây dựng dựa trên ownCloud? Ngoài ra trước đây Tomboy Notes có 1 webserver, tên Snowy, viết bằng Python-Django nhưng còn thô sơ và source code đã thất lạc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Training:
+&lt;ul&gt;
+&lt;li&gt;Tập sử dụng Zim desktop với subpage, link, format bằng Wiki syntax. Quan sát các file Zim tạo ra.&lt;/li&gt;
+
+&lt;li&gt;Tập sử dụng Git. Cố ý tạo ra conflict.&lt;/li&gt;
+
+&lt;li&gt;Tập viết app Python đơn giản. Tập viết 1 plugin đơn giản cho Zim. Tìm hiểu thêm về GTK.&lt;/li&gt;
+
+&lt;li&gt;Training về webserver, tùy vào việc chọn xây dựng webserver bằng PHP hay Python.&lt;/li&gt;
+
+&lt;li&gt;Dự kiến sẽ training trong ít nhất 1 tuần đến 10 ngày để tạo background công nghệ trước dự án:
+&lt;ul&gt;
+&lt;li&gt;Làm quen với Zim on desktop: 2 ngày&lt;/li&gt;
+
+&lt;li&gt;Tập thao tác với github: khoảng 3 ngày&lt;/li&gt;
+
+&lt;li&gt;Tập viết app bằng Python : 3 ngày (Viết một app calculator chỉ dùng phép cộng, trừ)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Các thông tin bổ sung:
+&lt;ul&gt;
+&lt;li&gt;Tham khảo API Twittter: https://dev.twitter.com/docs/api/1.1&lt;/li&gt;
+
+&lt;li&gt;Tham khảo Mandrill: https://mandrillapp.com/api/docs/messages.JSON.html&lt;/li&gt;
+
+&lt;li&gt;Tham khảo plugin cho Zim viết bằng python: http://bazaar.launchpad.net/~jaap.karssenberg/zim/pyzim/view/head:/zim/plugins/arithmetic.py&lt;/li&gt;
+
+&lt;li&gt;Tìm hiểu về GTK: http://www.gtk.org&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>/conference/2014-05/meeting-2.html</link>
+      <guid>/conference/2014-05/meeting-2</guid>
+      <pubDate>Sun, 25 May 2014 00:00:00 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title><![CDATA[Meeting Minute 1]]></title>
+      <description>&lt;p&gt;&lt;strong&gt;Thời gian&lt;/strong&gt;: Thứ 7, ngày 24/05/2014 - 16h-18h21 (GMT+7)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thành phần tham dự&lt;/strong&gt;: anh Hưng, Khoái, Nam, Hùng, Huy&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Địa điểm&lt;/strong&gt;: Fixx Coffee&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mục đích&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gặp mặt, làm quen giữa anh Hưng và các thành viên trong đội&lt;/li&gt;
+
+&lt;li&gt;Thống nhất hình thức liên lạc, phương thức làm việc, thời gian họp, gặp mặt trong thời gian tới&lt;/li&gt;
+
+&lt;li&gt;Hướng dẫn đề cương và lập timeline công việc trong tuần tới.&lt;/li&gt;
+
+&lt;li&gt;Phân công tổ chức&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Nội dung cuộc họp&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Thống nhất phương thức làm việc:
+&lt;ul&gt;
+&lt;li&gt;Anh Hưng sẽ phụ trách về mặt tổ chức, còn anh Quân sẽ phụ trách về mặt công nghệ.&lt;/li&gt;
+
+&lt;li&gt;Chọn Agile làm phương thức phát triển phần mềm.&lt;/li&gt;
+
+&lt;li&gt;Môi trường làm việc: hệ điều hành Linux (Distro Ubuntu 14.04, Archlinux)&lt;/li&gt;
+
+&lt;li&gt;Anh Hưng đề xuất 2 phương án làm việc:
+&lt;ul&gt;
+&lt;li&gt;Chia bài toán làm các module, giao mỗi người một module và có 1 team lead quản lý chung.&lt;/li&gt;
+
+&lt;li&gt;Chia các module theo thứ tự ưu tiên, các nhóm tập trung giải quyết các module theo thứ tự đó.&lt;/li&gt;
+
+&lt;li&gt;Phương án làm việc sẽ được thống nhất sau khi phân tích bài toán cùng anh Quân.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Mỗi tuần họp một lần. Trong các cuộc họp với các mentor cần làm ít nhất các việc sau:
+&lt;ul&gt;
+&lt;li&gt;Báo cáo tiến độ, trong tuần vừa qua đã làm được những gì.&lt;/li&gt;
+
+&lt;li&gt;Đưa ra các vấn đề mắc phải, cùng mentor tìm phương hướng giải quyết.&lt;/li&gt;
+
+&lt;li&gt;Lên các công việc cần làm trong tuần này.&lt;/li&gt;
+
+&lt;li&gt;Trước 12h-24h trước cuộc họp, team lead gửi agenda cuộc họp cho mentor thông qua email. (Trừ trường hợp đặc biệt, có thể gửi 2 đến 3 h trước cuộc họp).&lt;/li&gt;
+
+&lt;li&gt;Nhật ký dự án: viết blog trên github.io. (Các công việc đã làm được, chia sẻ những thứ tìm hiểu được, hoặc những điều hay mới phát hiện ra).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Thống nhất hình thức liên lạc:
+&lt;ul&gt;
+&lt;li&gt;Các kênh thông tin liên lạc online: skype, email, facebook
+&lt;ul&gt;
+&lt;li&gt;Skype: Lập nhóm group, liên lạc qua hình thức chat text và chat voice. (chat video nếu cần thiết)&lt;/li&gt;
+
+&lt;li&gt;Email: lập google mail group, trao đổi, giải đáp thắc mắc, liên lạc trước các cuộc họp&lt;/li&gt;
+
+&lt;li&gt;Facebook: Đã có group chat, lập group, trao đổi các vấn đề cần thiết và bên lề.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Thống nhất lịch họp offline với anh Hưng hai tuần một lần (tuần 1 và 3 trong tháng) vào chiều thứ 7 từ 16h – 17h30 (GMT+7)&lt;/li&gt;
+
+&lt;li&gt;Cần fix 1 ngày trong tuần để họp qua skype với anh Quân.&lt;/li&gt;
+
+&lt;li&gt;Trong quá trình làm việc, tìm hiểu, nếu gặp các vấn đề khó khăn cần liên hệ ngay với các mentors để nhận sự giúp đỡ, phương án giải quyết.&lt;/li&gt;
+
+&lt;li&gt;Liên lạc với các anh chị khóa trên từng thi MHST để học hỏi thêm kinh nghiệm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Hướng dẫn đề cương
+&lt;ul&gt;
+&lt;li&gt;Lên mục lục cho đề cương. Hoàn thành trong tuần, tối Chủ nhật nộp cho mentors.&lt;/li&gt;
+
+&lt;li&gt;Thứ 3 hoặc thứ 4 tuần sau, nộp prototype đề cương lần thứ nhất.&lt;/li&gt;
+
+&lt;li&gt;Thứ 6 tuần sau, nộp đề cương lần 2&lt;/li&gt;
+
+&lt;li&gt;Chỉnh sửa lại trong ngày thứ 7 và nộp cho Ban tổ chức.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Phân công tổ chức
+&lt;ul&gt;
+&lt;li&gt;Team lead phụ trách về công nghệ: anh Nam&lt;/li&gt;
+
+&lt;li&gt;Phụ trách hành chính (giấy tờ, liên lạc): Khoái&lt;/li&gt;
+
+&lt;li&gt;Ghi chép các cuộc họp: Khoái&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Thông tin bổ sung:
+&lt;ul&gt;
+&lt;li&gt;Các công cụ được anh Hưng đề xuất: Pencil on linux (design), ArgoUML (thiết kế UML), Balsamiq (Mockup)&lt;/li&gt;
+
+&lt;li&gt;Xây dựng môi trường và back-up data: anh Nam&lt;/li&gt;
+
+&lt;li&gt;Lên master plan cho dự án trong 3 tuần tới.&lt;/li&gt;
+
+&lt;li&gt;Thống nhất nếu đội giành được giải sẽ để 10% tổng giải thưởng cho anh Hưng, 10% tổng giải thưởng cho anh Quân.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>/conference/2014-05/meeting-1.html</link>
+      <guid>/conference/2014-05/meeting-1</guid>
+      <pubDate>Sat, 24 May 2014 00:00:00 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title><![CDATA[Chào thế giới :D]]></title>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Đây là nhật ký làm việc của nhóm MHST14-13-Mizu. Chúng tôi lập blog này để có thể viết ra những gì cần chuẩn bị phải làm, lên kế hoạch, những gì mà chúng tôi nghĩ và cảm nhận trong quá trình làm việc với nhau trong khuôn khổ Mùa hè sáng tạo 2014&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      <link>/utility/2014-05/hello-world.html</link>
+      <guid>/utility/2014-05/hello-world</guid>
+      <pubDate>Sat, 24 May 2014 00:00:00 +0700</pubDate>
+    </item>
+    
+  </channel>
+</rss>
