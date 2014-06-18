@@ -1,1 +1,1 @@
-test.rb branch master
+da giai quyet test.rb
